@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="621bcbe7-525a-4b97-b27c-ca35f364a613" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JupyterTrust" id="d61af6ad-bd46-4e8b-8d06-f1836c7a78fa" />
+  <component name="ProjectId" id="1aAnJCWh6f9tSP0C1ZcHDX6p7l4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cse327project/ecomerceSite" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="621bcbe7-525a-4b97-b27c-ca35f364a613" name="Default Changelist" comment="" />
+      <created>1586187191810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586187191810</updated>
+      <workItem from="1586187199289" duration="1230000" />
+      <workItem from="1597052996435" duration="86000" />
+      <workItem from="1597053301939" duration="763000" />
+      <workItem from="1599064928835" duration="601000" />
+      <workItem from="1600328463871" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1600328486723">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1600328486723" />
+    <state width="1342" height="198" key="GridCell.Tab.0.bottom" timestamp="1597053427123">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1342" height="198" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597053427123" />
+    <state width="1342" height="198" key="GridCell.Tab.0.center" timestamp="1597053427123">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1342" height="198" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597053427123" />
+    <state width="1342" height="198" key="GridCell.Tab.0.left" timestamp="1597053427122">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1342" height="198" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597053427122" />
+    <state width="1342" height="198" key="GridCell.Tab.0.right" timestamp="1597053427123">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1342" height="198" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597053427123" />
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1600328472619">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="246" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1600328472619" />
+  </component>
+</project>
