@@ -195,7 +195,7 @@ try:
 except ZeroDivisionError:
     print("an error occured")
     print("Due to zero divison")
-'''
+
 ### A try statement can have multiple different except blocks to handle different exceptions
 try:
     var = 10
@@ -206,3 +206,86 @@ except ZeroDivisionError:
     print("divided by zero")
 except (ValueError, TypeError):
     print("Error occured")
+
+##code within finally statements always run
+
+try:
+    print("Hello")
+    print(1/0)
+except ZeroDivisionError:
+    print("Division by zero!")
+finally:
+    print("This code will run no matter what")
+
+
+#Raising Exeptions 
+#you need to specify the type of exception raised
+print(1)
+raise ValueError
+print(2)
+
+try:
+    print(1/0)
+except ZeroDivisionError:
+    raise ValueError
+
+
+print("123")
+raise NameError("Invalid name!")
+
+num = input(":")
+if float(num)
+
+
+###ASserations
+print(1)
+assert 2+2 ==4
+print(2)
+assert 1+1 ==3
+print(3)
+
+#ASserations can take a second argument that is passed to the assertionError raised if the asserations fails
+temp =-10
+assert (temp >= 0), "colder than absoulte zero"
+
+# Read file
+#opening file
+open("file.txt", "w")
+#read mode
+open("file.txt", "r")
+# binary write mode
+open("file.txt", "wb")
+#both read & write
+open("file.txt", "r+")
+
+file = open("file.txt","w")
+#do stup to the file
+file.close()
+
+
+#writng file
+f = open("file.txt","w")
+f.write("this has been writen to the file")
+f.close()
+
+f = open("file.txt","r")
+print(f.read())
+f.close()
+
+msg = "Hello world"
+file = open("newfile.txt", "w")
+amount_written = file.write(msg)
+print(amount_written)
+file.close()
+
+# good practice to file works in exception
+try:
+    f = open("filename.txt")
+    print(f.read())
+finally:
+    f.close()
+
+'''
+# with statement automatically close 
+with open("filename.txt") as f:
+    print(f.read())
