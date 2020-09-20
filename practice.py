@@ -285,7 +285,45 @@ try:
 finally:
     f.close()
 
-'''
+
 # with statement automatically close 
 with open("filename.txt") as f:
     print(f.read())
+
+#Dictionaries
+ages = {"dave": 20, "nikhil": 21, "monami": 24 }
+print(ages["dave"])
+
+
+#Trying to index a key that isn;t part of the dictionary returns a KeyError
+
+primary = {
+    "red": [25, 0, 0],
+    "green": [0, 255, 0]
+}
+print(primary["red"])
+#print(primary["yello"])
+print("red" in primary)
+
+
+
+#Only immutable objects can be used as keys to ditionaries.
+# immutable objects are those can't be changed.
+
+#to get the index of ditionaries <get> is used, if it didn't find it, it's return None 
+
+paris = {
+    1 : "apple",
+    "orange": [1,2,3],
+    True: False,
+    None: "True",
+}
+print(paris.get("red"))
+print(paris.get("orange"))
+print(paris.get(7))
+print(paris.get(12345, "not in dictionary"))
+
+'''
+##tuples (immutable)
+words = ("span", "eggs", "sausages",)
+print(words[0])
