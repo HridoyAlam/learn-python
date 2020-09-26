@@ -324,6 +324,140 @@ print(paris.get(7))
 print(paris.get(12345, "not in dictionary"))
 
 '''
+'''
 ##tuples (immutable)
 words = ("span", "eggs", "sausages",)
 print(words[0])
+'''
+'''
+#List slice
+
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+print(squares[2:6]) #like range (i : j) from i to j-1 
+print(squares[3:8])
+print(squares[0:1])
+print(squares[0:1])
+print(squares[0:1])
+'''
+'''
+#if the first number is omited in a slice, it is taken to be the start of the list
+#if the second number is omited, it is taken to be end
+
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+print(squares[ :7])
+print(squares[7:])
+print(squares[ : : 2]) #first to last with step 2 
+print(squares[2 : 8 : 3 ]) # 2nd index to  to (8-1)index with step 3
+'''
+'''
+squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+for i in range(2,8,3):
+    print(squares[i])
+
+print(squares[1 : -1]) # first to end-1
+
+#count from the end
+print(squares[7 : 5 :1])# 49,36
+'''
+'''
+#list comprehension
+cubes = [ i**3 for i in range(5)]
+print(cubes)
+
+even = [i*2 for i in range(11)]
+print(even)
+
+evens =[i**2 for i in range(11) if i**2 % 2 == 0]
+print(evens)
+a =[i for i in range(20) if i%3 ==0]
+print(a)
+'''
+'''
+#string formatting
+nums = [4,5,6]
+msg = "number:{0} {1} {2}".format(nums[0], nums[1], nums[2])
+print(msg)
+# Each argument of the format functions is placed in the string at the correspoding position, 
+# which is determinded using the curly braces{}
+print( "{0}{1}{0}".format( "abra", "cad") )
+
+a = "{x} , {y}".format( x= 5, y=12)
+print(a)
+
+str = "{c},{b},{a}".format(a = 5, b=9, c=7)
+print(str)
+'''
+'''
+print(", ".join(["hello", "python", "world"])) #join a list string with another string as a separtor
+
+print("hello me".replace("me", "world")) #replace one substring a string with another
+print("hello me".replace( " , ", "me"))
+print("this is a sentence.".startswith("this")) #True
+print("this is a sentence.".endswith("sentence."))  #true
+
+print("this is sentence".upper())
+print("THIS IS SENTENCE".lower())
+
+print("hello, python, world".split(", "))
+'''
+'''
+num = [55, 44, 33, 22, 11]
+if all([i>5 for i in num]):
+    print("all larger than 5")
+
+if any([i % 2 == 0 for i in num]):
+    print("at least one is even")
+
+#all and any take an list as an argument, and return true if all or any(repectively)
+#of their arguments evalute to True( and false otherwise)
+
+for v in enumerate(num):
+    print(v)
+#the functions enumerate can be used to iterate through the values and indices of a list simultaneously
+
+'''
+'''
+filename = input("enter a file name: ")
+
+with open(filename) as f:
+    text = f.read()
+
+print(text)
+'''
+'''
+def count_char(text, char):
+    count = 0
+    for i in text:
+        if i == char:
+            count = count + 1
+    return count
+
+file_name = input("Enter a file name: ")
+with open(file_name) as f:
+    text = f.read()
+
+print(count_char(text, "r"))
+'''
+'''
+def count_char(text, char):
+    count = 0
+    for i in text:
+        if i == char:
+            count +=1
+    return count
+
+
+filename = input("Enter a file name: ")
+
+with open(filename) as f:
+    text = f.read()
+
+for i in "abcdefghijklmnopqrstuvwxyz":
+    perc = 100 * count_char(text, i) / len(text)
+    print("{0} - {1}%".format(i, round(perc,2)))
+
+
+'''
+nums = (55,44,33,22)
+print(nums[:2])
