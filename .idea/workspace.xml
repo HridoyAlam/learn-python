@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621bcbe7-525a-4b97-b27c-ca35f364a613" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="621bcbe7-525a-4b97-b27c-ca35f364a613" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +20,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cse327project/ecomerceSite" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cse327project/eab" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -53,6 +51,7 @@
       <workItem from="1600328463871" duration="27000" />
       <workItem from="1601115410446" duration="26000" />
       <workItem from="1601137141405" duration="97000" />
+      <workItem from="1601205946134" duration="29000" />
     </task>
     <servers />
   </component>
@@ -60,10 +59,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1600328486723">
+    <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1601205972384">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1600328486723" />
+    <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1601205972384" />
     <state width="1342" height="198" key="GridCell.Tab.0.bottom" timestamp="1597053427123">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
